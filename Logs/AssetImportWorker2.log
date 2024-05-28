@@ -1,0 +1,506 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Student/My project (2)
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51128
+Successfully changed project path to: C:/Users/Student/My project (2)
+C:/Users/Student/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4604] Host "[IP] 10.0.3.219 [Port] 0 [Flags] 2 [Guid] 703199741 [EditorId] 703199741 [Version] 1048832 [Id] WindowsEditor(7,CIIT501PC11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4604] Host "[IP] 10.0.3.219 [Port] 0 [Flags] 2 [Guid] 703199741 [EditorId] 703199741 [Version] 1048832 [Id] WindowsEditor(7,CIIT501PC11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Student/My project (2)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004233 seconds.
+- Loaded All Assemblies, in  0.225 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.167 seconds
+Domain Reload Profiling: 392ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (73ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (168ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (130ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.392 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.348 seconds
+Domain Reload Profiling: 738ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (184ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (348ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (257ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3531.
+Memory consumption went from 114.0 MB to 113.9 MB.
+Total: 2.815500 ms (FindLiveObjects: 0.171500 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.503200 ms  DeleteObjects: 0.072400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4370.271733 seconds.
+  path: Assets/Bulky-Knight/Materials/Armour_C.mat
+  artifactKey: Guid(8f27c5f99fea2e643a7031bf588c86df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bulky-Knight/Materials/Armour_C.mat using Guid(8f27c5f99fea2e643a7031bf588c86df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9986c1a1fee0483cfc59a18ff0adf17') in 0.078134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 420.529491 seconds.
+  path: Assets/vikingmedieval-game-character/source
+  artifactKey: Guid(671025aa9d138bb49ab31149e4a6de60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/source using Guid(671025aa9d138bb49ab31149e4a6de60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d2924a8cd48d30f80ca21b63011afd') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.038161 seconds.
+  path: Assets/vikingmedieval-game-character/source/0aae56e956f94ede8f91f214a7bfee85.zip.zip
+  artifactKey: Guid(95adfe2b180124a4abcbd5e150e3959e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/source/0aae56e956f94ede8f91f214a7bfee85.zip.zip using Guid(95adfe2b180124a4abcbd5e150e3959e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd8070b6d619dd46df40d2ec2f4e11a') in 0.000656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.470134 seconds.
+  path: Assets/vikingmedieval-game-character/textures
+  artifactKey: Guid(dda613f48f447a44688eb89a1ea849ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures using Guid(dda613f48f447a44688eb89a1ea849ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d10b54f7c0cb42706caca6306f1c89') in 0.000329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.082693 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Armband_Diff.jpeg
+  artifactKey: Guid(ab49756ba33c7b140a9d70735e088618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Armband_Diff.jpeg using Guid(ab49756ba33c7b140a9d70735e088618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84374bd6f70214d72e557cbb3b3d31a') in 0.018912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Shield_Norm.jpeg
+  artifactKey: Guid(8e29c40f89cb04c4c9d8f67084d96ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Shield_Norm.jpeg using Guid(8e29c40f89cb04c4c9d8f67084d96ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411e1546343fe4abf732e37839f9c9be') in 0.036168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Leg_Norm.jpeg
+  artifactKey: Guid(a8e314fa50784ec4dbbd475a348c75a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Leg_Norm.jpeg using Guid(a8e314fa50784ec4dbbd475a348c75a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1b7482a4f20654a4c52b64849a3736') in 0.030126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Belt_Gloss.jpeg
+  artifactKey: Guid(1464a63d0155fca4aab6ab5815715b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Belt_Gloss.jpeg using Guid(1464a63d0155fca4aab6ab5815715b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dbb9a7f419de184eb53567a78b767d') in 0.024113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Boot_Spec.jpeg
+  artifactKey: Guid(b28d88649647a74478a974867086ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Boot_Spec.jpeg using Guid(b28d88649647a74478a974867086ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bd48a69268ec1282ac539d7b5ad436') in 0.012839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Collar_Norm.jpeg
+  artifactKey: Guid(9178b57704a6b974388d4cb2ec91de83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Collar_Norm.jpeg using Guid(9178b57704a6b974388d4cb2ec91de83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13f27f68780043b3ee84e6a73eec157') in 0.012080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Boot_Norm.jpeg
+  artifactKey: Guid(9014873b240ba2248b52c5d08e2509a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Boot_Norm.jpeg using Guid(9014873b240ba2248b52c5d08e2509a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfe509280867060e354255128d59e12') in 0.012773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Char_Diffuse - Copy.jpeg
+  artifactKey: Guid(194b08fb35e2628449a313738f35fdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Char_Diffuse - Copy.jpeg using Guid(194b08fb35e2628449a313738f35fdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae7d2a90244e80433c3327f6bb50ac6') in 0.014352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Axe_Spec.jpeg
+  artifactKey: Guid(c9245d1f9bd6d8146b5b5a372abd01ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Axe_Spec.jpeg using Guid(c9245d1f9bd6d8146b5b5a372abd01ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efba754295092d2b9880c87e9fc81e8') in 0.011859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Boot_Gloss.jpeg
+  artifactKey: Guid(611783b70f97cd8419fcc662d4227c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Boot_Gloss.jpeg using Guid(611783b70f97cd8419fcc662d4227c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877cbfca919dfb3e8eabe540ce643224') in 0.014225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Gauntlet_Gloss.jpeg
+  artifactKey: Guid(90fbb1de450c6184893253fec856d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Gauntlet_Gloss.jpeg using Guid(90fbb1de450c6184893253fec856d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7314a2b5694276356d239ea9678c97e3') in 0.013953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Collar_Gloss.jpeg
+  artifactKey: Guid(4ab9c4d64936c4649b07240ec24becce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Collar_Gloss.jpeg using Guid(4ab9c4d64936c4649b07240ec24becce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e13e1d21b9bc64901b8ba9ff25da6e') in 0.010556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/vikingmedieval-game-character/textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(fea93d370b1ae214b8dd0acb721f3e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/internal_ground_ao_texture.jpeg using Guid(fea93d370b1ae214b8dd0acb721f3e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0d04877be2d354dcfb049dd984891b') in 0.013296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Leg_Gloss.jpeg
+  artifactKey: Guid(080c2ea38a98cf7479f95d5d016dc8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Leg_Gloss.jpeg using Guid(080c2ea38a98cf7479f95d5d016dc8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ba17ad2d74b69cd4e26a58d2fa5a1a') in 0.013140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Shield_Spec.jpeg
+  artifactKey: Guid(142982fbda77f554e9fb8204696bab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Shield_Spec.jpeg using Guid(142982fbda77f554e9fb8204696bab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0281ffad12535d19e349e737e86d276') in 0.013231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Axe_Norm.jpeg
+  artifactKey: Guid(e4a3995eed6d777498dbe244b3d798c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Axe_Norm.jpeg using Guid(e4a3995eed6d777498dbe244b3d798c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6460a13d62bf49bd76bf34e7ed57cd9e') in 0.017273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Armband_Spec.jpeg
+  artifactKey: Guid(c05065eb7e3e55143863de71a9c8f6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Armband_Spec.jpeg using Guid(c05065eb7e3e55143863de71a9c8f6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4b8bd80c47cb77c234796cb5efc714') in 0.014146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Leg_Spec.jpeg
+  artifactKey: Guid(b3c2f81371116f241b0a743f6b9e6436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Leg_Spec.jpeg using Guid(b3c2f81371116f241b0a743f6b9e6436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289c0e86dbc150b25556b13f180b02f2') in 0.012908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Shoulder_Norm.jpeg
+  artifactKey: Guid(5e8e95c6cf1f3544f8bc2478c81738b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Shoulder_Norm.jpeg using Guid(5e8e95c6cf1f3544f8bc2478c81738b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0a05ae3b371f69a0018cc7832ba3ad') in 0.013735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/vikingmedieval-game-character/textures/Leg_Diff.jpeg
+  artifactKey: Guid(b28348a309819e447ae03815fe31a85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/textures/Leg_Diff.jpeg using Guid(b28348a309819e447ae03815fe31a85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990773225d8b26e00442dcbe4036f6f3') in 0.013917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 65.916159 seconds.
+  path: Assets/vikingmedieval-game-character
+  artifactKey: Guid(737385009fd95e04dae9ceb89f70d569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character using Guid(737385009fd95e04dae9ceb89f70d569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec15bad9a8a3a19e5e228053e55ffab') in 0.000400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.551051 seconds.
+  path: Assets/vikingmedieval-game-character/source/0aae56e956f94ede8f91f214a7bfee85.zip
+  artifactKey: Guid(f7cd08915e209764a99a59136ded0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/source/0aae56e956f94ede8f91f214a7bfee85.zip using Guid(f7cd08915e209764a99a59136ded0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b9a2c15ccf95d2c2bcf5d1f7638dd5') in 0.000354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.710802 seconds.
+  path: Assets/vikingmedieval-game-character/source/0aae56e956f94ede8f91f214a7bfee85.zip/source
+  artifactKey: Guid(79648883235e350409174a1bbcda6189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/source/0aae56e956f94ede8f91f214a7bfee85.zip/source using Guid(79648883235e350409174a1bbcda6189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4505aa6a7540ebaa6cbfd73b50dd1d6') in 0.000320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.654847 seconds.
+  path: Assets/vikingmedieval-game-character/source/0aae56e956f94ede8f91f214a7bfee85.zip/source/e985475bbbd242d1bb93ffad6d902dae.rar
+  artifactKey: Guid(73087bc159fc98d41a12a67050f6dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vikingmedieval-game-character/source/0aae56e956f94ede8f91f214a7bfee85.zip/source/e985475bbbd242d1bb93ffad6d902dae.rar using Guid(73087bc159fc98d41a12a67050f6dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffe79273d3c1e0cd7421daf0b1e8852') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 146.063755 seconds.
+  path: Assets/connor-rk900-detroit-become-human
+  artifactKey: Guid(3413cfc56f3e8104193700ccb69cc51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human using Guid(3413cfc56f3e8104193700ccb69cc51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca186953984290fd6f92affc01b864c') in 0.000329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.047323 seconds.
+  path: Assets/connor-rk900-detroit-become-human/source
+  artifactKey: Guid(c7541d299a634644f853870ad3adefa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human/source using Guid(c7541d299a634644f853870ad3adefa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d1bcc9df74108c8ba63e0e783b9083') in 0.000350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080957 seconds.
+  path: Assets/connor-rk900-detroit-become-human/source/Standing W_Briefcase Idle.fbx
+  artifactKey: Guid(b9111c87398f57e4faa98282c048e914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human/source/Standing W_Briefcase Idle.fbx using Guid(b9111c87398f57e4faa98282c048e914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4874d43bfe2fad3c25e12f045560dbe') in 0.311859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 552.664729 seconds.
+  path: Assets/Firing Rifle.fbx
+  artifactKey: Guid(13edae9673e42db4d8438acb9ad322cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firing Rifle.fbx using Guid(13edae9673e42db4d8438acb9ad322cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28eba933f5edc5b41af59ff5630f202d') in 0.056932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 19.094542 seconds.
+  path: Assets/connor-rk900-detroit-become-human/textures/arms_d.jpeg
+  artifactKey: Guid(d197b7e5feb4e4a4cb490391be776455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human/textures/arms_d.jpeg using Guid(d197b7e5feb4e4a4cb490391be776455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55de36e9b194b309a67755f3a3abc137') in 0.012996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/connor-rk900-detroit-become-human/textures/shoes_d.jpeg
+  artifactKey: Guid(b1c871285db24c4489629f2185b5194c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human/textures/shoes_d.jpeg using Guid(b1c871285db24c4489629f2185b5194c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb0c81bc89fc00fefdb0f239c29f235') in 0.013834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/connor-rk900-detroit-become-human/textures/mouth_d.jpeg
+  artifactKey: Guid(b8ca73f5cf0f7464e93f7032a6a4dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human/textures/mouth_d.jpeg using Guid(b8ca73f5cf0f7464e93f7032a6a4dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a27e12c4d49ef0bb0bec6151247d2ef') in 0.018035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/connor-rk900-detroit-become-human/textures/shirt_d.jpeg
+  artifactKey: Guid(3169e0e2e15d6d74eb06c663f042a3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human/textures/shirt_d.jpeg using Guid(3169e0e2e15d6d74eb06c663f042a3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175d3f31ff5a5b5ede25baaedc1040d4') in 0.019347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/connor-rk900-detroit-become-human/textures/eyebrows_d.png
+  artifactKey: Guid(18534c9673d30374e80afd94c29fd91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human/textures/eyebrows_d.png using Guid(18534c9673d30374e80afd94c29fd91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c212e92d3ab9f3231bf169ce12c45b42') in 0.019829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/connor-rk900-detroit-become-human/textures/head_d.png
+  artifactKey: Guid(c485d0d77cceff242a74cbbd6082e893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human/textures/head_d.png using Guid(c485d0d77cceff242a74cbbd6082e893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60df3c2e4e2b111f98abd98bb377b93') in 0.017737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/connor-rk900-detroit-become-human/textures/jeans_d.jpeg
+  artifactKey: Guid(191e3501ec4b5774593d49b5355e5e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human/textures/jeans_d.jpeg using Guid(191e3501ec4b5774593d49b5355e5e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7864385007de437144bc22486942d7') in 0.016980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/connor-rk900-detroit-become-human/textures/lashes_d.png
+  artifactKey: Guid(4ca95d667d2d60f4a8e986aaaa8b1a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/connor-rk900-detroit-become-human/textures/lashes_d.png using Guid(4ca95d667d2d60f4a8e986aaaa8b1a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201d2ccdff94874c4dea023943d0db1c') in 0.016542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
